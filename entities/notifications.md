@@ -6,18 +6,59 @@ Here is an example in app notification payload:
 
 ```json
 {
-  "title":"Bingo Tile Confirmed", 
-  "description":"Dan sighs heavily", 
-  "avatar": {
-    "src":"https://wanshow.bingo/resources/images/favicon-32x32.png"
-    }, 
-  "color":"green"
+  "op":1000,
+  "payload": {
+    "flags": {
+      "interactive": false
+    },
+    "actions": [],
+    "toast": {
+      "title": "Bingo Tile Confirmed",
+      "description": "Dan sighs heavily",
+      "avatar": {
+        "src": "https://wanshow.bingo/resources/images/favicon-32x32.png"
+      },
+      "color": "green"
+    }
+  }
 }
 ```
 
-This example is for a WAN Show Bingo tile confirmation notification
+And here is an example of an interactive notification payload:
+
+```json
+{
+  "op":1000,
+  "payload": {
+    "flags": {
+      "interactive": true
+    },
+    "actions": [
+      {
+         "visible": {
+
+         },
+         "handler": {
+            "type": "redirect",
+            "url": "https://wanshow.bingo",
+            "target": "_blank"
+         }
+      }
+    ],
+    "toast": {
+      "title": "Bingo Session Started",
+      "description": "Would you like to participate?",
+      "avatar": {
+        "src": "https://wanshow.bingo/resources/images/favicon-32x32.png"
+      },
+      "color": "green"
+    }
+  }
+}
+```
 
 # Floatplane Go Live Notifications
+
 These notifications differ from the above example in many key ways, first, they are intern-only, not intended to be displayed to a user without some form of pre-processing.
 
 The format is as follows:
