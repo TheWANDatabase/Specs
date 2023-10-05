@@ -3,7 +3,7 @@
 Current Layout:
 
 |     Field     |   Type    |        Nullable        | Description                                                                                                              |
-| :-----------: | :-------: | :--------------------: | :----------------------------------------------------------------------------------------------------------------------- |
+|:-------------:|:---------:|:----------------------:|:-------------------------------------------------------------------------------------------------------------------------|
 |      id       |   Text    | <ul><li>[ ] </li></ul> | The ID of the episode in question, this is the unique portion of the episode's Youtube Watch URL                         |
 |    youtube    |   Text    | <ul><li>[ ] </li></ul> | The url of the Youtube VOD[^1]                                                                                           |
 |  floatplane   |   Text    | <ul><li>[x] </li></ul> | The url of the Floatplane VOD (if it exists)[^2]                                                                         |
@@ -19,37 +19,20 @@ Current Layout:
 
 ### References
 
-[^1]: This field will begetting removed entirely because it is wasteful
+[^1]: This field will be getting removed entirely because it is wasteful
 
-[^2]: This field will beconverted from a URL to a unique ID and reconstructed on the
+[^2]: This field will be converted from a URL to a unique ID and reconstructed on the
 client side
 
-[^3]: This field may onoccasion be out of sync by about 24 hours due to to the delays
-in VODavailability
+[^3]: This field may on occasion be out of sync by about 24 hours due to the delays
+in VOD availability
 
-[^4]: This field is onlypopulated for videos which have a possible "known good" copy
-and are otherwisecorrupted
+[^4]: This field is only populated for videos which have a possible "known good" copy
+and are otherwise corrupted
 
 ---
 
 # Episode Flags
 
-| Flag    | Description                                                                                                                |
-| :------ | :------------------------------------------------------------------------------------------------------------------------- |
-| thumb   | Video has a thumbnail hosted on our CDN                                                                                    |
-| aod     | Video has an AOD / Audio On Demand File (Hosted on our CDN)                                                                |
-| vod     | Video has an VOD / Video On Demand File (Hosted on our CDN)                                                                |
-| vtt     | Video has a transcript file available                                                                                      |
-| private | Video is private - These videos are not recognized by the API                                                              |
-| stream  | Video is available via Stream Player[^4][^5]                                                                               |
-| live    | Video is currently being actively livestreamed by LMG (This flag should be exclusive!)                                     |
-| corrupt | Video is corrupted and users should be warned of this when viewing VOD content.                                            |
-| cw      | Video has a content warning applied, this is usually because it is an older video before they were so careful about things |
-| guest   | Video features one or more guests to the show (non LMG staff)                                                              |
-| event   | This show was streamed from an LTX or other industry event                                                                 |
-| mm      | Video features the use of Merch Messages                                                                                   |
-| pl      | Video features the launch of a product by LMG/Creator Warehouse                                                            |
-
-### References
-
-[^5]: [See Cloudflare docs](https://developers.cloudflare.com/stream/)
+The episode flag table is currently being rebuilt based off of the update database schema, and will be updated here
+when it is complete.
