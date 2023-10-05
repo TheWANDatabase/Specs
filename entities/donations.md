@@ -59,14 +59,10 @@ You can change your subscription in any one of two ways
 | LTT Store Product Archives                | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | Complete Merch Message Archive            | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | Discord Perks                             | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
-| Audio Only Playback                       | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
-| Multi-Resolution Playback                 | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | View Episode Discussions                  | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | Profile Badge to display your awesomeness | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | Better Profile Badge                      | $$\color{red}   ✗ $$ | $$\color{green} ✓ $$ |
-| Custom Site Color Themes                  |  $$\color{red}  ✗ $$ | $$\color{green} ✓ $$ |
-| Live stream playback                      |  $$\color{red}  ✗ $$ | $$\color{green} ✓ $$ |
-| Live stream chat                          |  $$\color{red}  ✗ $$ | $$\color{green} ✓ $$ |
+| Custom Site Color Themes                  | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | Instant access to new content*            |  $$\color{red}  ✗ $$ | $$\color{green} ✓ $$ |
 | Early access to new content**             | $$\color{green} ✓ $$ | $$\color{green} ✓ $$ |
 | Better custom themes***                   | $$\color{red}   ✗ $$ | $$\color{green} ✓ $$ |
@@ -116,9 +112,3 @@ responded to the message (if we can figure that out)
 Discord Perks are perks which allow you to get a special role on the Discord server, which will allow you to access a
 supporters only channel. This channel will be used to discuss upcoming features, and to get feedback on new features
 before they are announced to the public.
-
-#### What is "Audio Only Playback"?
-
-Exactly what is says on the tin, instead of streaming a video to you, we will stream an audio only version of the video
-to your device. This allows you to not waste bandwidth loading pixels you don't want to see, and is great for those who
-want to listen to the show whilst doing other things, or who view it as an audio podcast.
