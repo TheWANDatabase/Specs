@@ -26,7 +26,7 @@ credit balance, as annual billing is only available for subscribers.
 
 ## How to Cancel
 
-You can cancel you subscription in any one of two ways
+You can cancel your subscription in any one of two ways
 
 1. You can email me directly, and I will cancel your subscription for you
 2. You can cancel your subscription via the button on your profile page (this will not cancel your subscription, but
